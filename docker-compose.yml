@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  delliv-api: 
+    image: bitnami/postgresql
+    container_name: delliv_pg_db
+    env_file:
+      - .env
+    environment:
+      POSTGRESQL_USERNAME: "${DB_USERNAME}"
+      POSTGRESQL_PASSWORD: "${DB_PASSWORD}"
+      POSTGRESQL_DATABASE: "${DB_DATABASE}"
+
+    ports: 
+      - "5432:5432"
+   
