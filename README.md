@@ -1,73 +1,72 @@
+
+
 <p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+  <img alt="logo"  width="80px" height="80px" src=".github/logo.jpeg" />
 </p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+## **💻** Projeto
 
-## Description
+Projeto para conclusão do desafio técnico proposto pela Delliv, que consiste em criar um sistema de compras online. Mais detalhes [aqui](https://github.com/delliv-tech/delliv-coding-challenge-fullstack-junior/commits?author=danielpatricio-delliv). Foi criada a paleta de cores personalizada com base na logo da delliv.
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+## Tecnologias utilizadas
 
-## Installation
+- [NestJS](https://nestjs.com/)
+- [PrismaORM](https://www.prisma.io/)
+
+
+## Cadastro de informações
 
 ```bash
-$ npm install
+## GET /products
+## PUT /products/:id
+## DELETE /products/:id
+## POST /products
 ```
 
-## Running the app
+Para cadastro, o formato solicitado deverá ser: 
+
+```
+{
+	name: string,
+	description: string,
+	price: string,
+	category: string,
+	imgSrc: string
+}
+```
+
+
+## **🚀** Como Executar
+
+Antes de baixar o projeto você vai precisar ter instalado na sua máquina as seguintes ferramentas:
+
+- [Git](https://git-scm.com/)
+- [NodeJS](https://nodejs.org/en/)
+- [NPM](https://www.npmjs.com/)
+
+Segue os comandos para baixar e executar o projeto na sua máquina:
 
 ```bash
-# development
-$ npm run start
+## Clone o projeto api em sua máquina
+git clone https://github.com/srsouzaj/delliv-api
 
-# watch mode
+# Instalar suas dependências
+$ npm install
+
+#instalar o banco de dados
+$ docker-compose up -d
+
+##popular tabela no banco de dados
+# executar o servidor em modo de desenvolvimento
 $ npm run start:dev
 
-# production mode
-$ npm run start:prod
+
+# para visualizar os dados
+npx prisma studio
 ```
 
-## Test
 
-```bash
-# unit tests
-$ npm run test
 
-# e2e tests
-$ npm run test:e2e
 
-# test coverage
-$ npm run test:cov
-```
 
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).

@@ -1,6 +1,6 @@
 /* eslint-disable prettier/prettier */
 import { Injectable } from '@nestjs/common';
-import { ProductDTO } from './products.dto';
+import { ProductDTO } from '../dto/products.dto';
 import { PrismaService } from 'src/database/Prisma.service';
 
 @Injectable()
@@ -15,7 +15,14 @@ export class ProductsService {
     }
 
     async findAll() {
-        return this.prisma.product.findMany();
+        const product = await this.prisma.product.findMany()
+
+        const dataProduct = {
+            message: ["request completed successfully"],
+            data: product,
+        }
+
+        return dataProduct
     }
 
     async update(id: string, data: ProductDTO) {
