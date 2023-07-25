@@ -1,0 +1,50 @@
+[
+		{
+			"id": "91744bfb-7b40-4e80-9d72-50799f657a0a",
+			"name": "Mochila Hidrorrepelente",
+			"imgSrc": "https://www.urbanflowers.com.br/wp-content/uploads/2023/02/mochila-vegana-hidrorrepelente-urban-flowers8-scaled.jpg",
+			"category": "closet",
+			"description": "Todas as nossas peças são feitas no Brasil através de uma cadeia de comércio justo por colaboradores assistidos de perto. Utilizamos materiais reciclados em todos os produtos.",
+			"price": "238.9"
+		},
+		{
+			"id": "8cf76742-7717-4998-bef5-c137e5df0629",
+			"name": "Mochila Afagos Preta",
+			"imgSrc": "https://www.urbanflowers.com.br/wp-content/uploads/2021/09/mochila-vegana-afagos-urban-flowers-13-1.jpg",
+			"category": "closet",
+			"description": "Todas as nossas peças são feitas no Brasil através de uma cadeia de comércio justo por colaboradores assistidos de perto. Utilizamos materiais reciclados em todos os produtos.",
+			"price": "238.9"
+		},
+		{
+			"id": "207888b1-14ae-4c91-a09b-ebe3e137787d",
+			"name": "Camiseta Comigo Ninguém Pode",
+			"imgSrc": "https://www.urbanflowers.com.br/wp-content/uploads/2023/05/camiseta-algodao-organico-comigo-ninguem-pode-planta-3.jpg",
+			"category": "tshirt",
+			"description": "Todas as nossas peças são feitas no Brasil através de uma cadeia de comércio justo por colaboradores assistidos de perto. Utilizamos materiais reciclados em todos os produtos.",
+			"price": "139.9"
+		},
+		{
+			"id": "bf25df31-23ee-4dc5-a293-1d119ca8e869",
+			"name": "Tênis Ventura Floresta",
+			"imgSrc": "https://www.urbanflowers.com.br/wp-content/uploads/2021/04/sapato-tenis-vegano-urban-flowers-1.jpg",
+			"category": "gym",
+			"description": "Todas as nossas peças são feitas no Brasil através de uma cadeia de comércio justo por colaboradores assistidos de perto. Utilizamos materiais reciclados em todos os produtos.",
+			"price": "199.9"
+		},
+		{
+			"id": "ec43e5b2-e210-4e81-b294-772f898792da",
+			"name": "Tênis Ventura Entardecer",
+			"imgSrc": "https://www.urbanflowers.com.br/wp-content/uploads/2020/08/URBAN-FLOWERS-TENIS-VEGANO-VENTURA-5-scaled-800x800.jpg",
+			"category": "gym",
+			"description": "Todas as nossas peças são feitas no Brasil através de uma cadeia de comércio justo por colaboradores assistidos de perto. Utilizamos materiais reciclados em todos os produtos.",
+			"price": "199.9"
+		},
+		{
+			"id": "77715b08-5d01-4c9a-bc58-c9a7282aace5",
+			"name": "Tênis Ventura Conhaque",
+			"imgSrc": "https://www.urbanflowers.com.br/wp-content/uploads/2020/08/URBAN-FLOWERS-TENIS-VEGANO-VENTURA-20-scaled-800x800.jpg",
+			"category": "gym",
+			"description": "Todas as nossas peças são feitas no Brasil através de uma cadeia de comércio justo por colaboradores assistidos de perto. Utilizamos materiais reciclados em todos os produtos.",
+			"price": "199.9"
+		}
+	]
